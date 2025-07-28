@@ -9,7 +9,7 @@ export default function OAOTHomePage() {
       <style jsx global>{`
         /* Dark theme for eye strain relief with kid-friendly colors */
         body {
-          font-family: &apos;Comic Sans MS&apos;, system-ui, -apple-system, sans-serif;
+          font-family: 'Comic Sans MS', system-ui, -apple-system, sans-serif;
           margin: 0;
           background-color: #0f172a;
           color: #e2e8f0;
@@ -23,7 +23,7 @@ export default function OAOTHomePage() {
         }
         
         .hero::before {
-          content: &apos;🌟 ⭐ 🌙 ✨ 🦉 🏔️ 🎨 🥾&apos;;
+          content: '🌟 ⭐ 🌙 ✨ 🦉 🏔️ 🎨 🥾';
           position: absolute;
           top: 20px;
           left: 0;
@@ -63,7 +63,7 @@ export default function OAOTHomePage() {
           text-decoration: none;
           cursor: pointer;
           border: none;
-          font-family: &apos;Comic Sans MS&apos;, sans-serif;
+          font-family: 'Comic Sans MS', sans-serif;
           transition: all 0.3s ease;
         }
         
@@ -141,7 +141,7 @@ export default function OAOTHomePage() {
           border: 3px dashed #6b7280;
           color: #d1d5db;
           font-weight: bold;
-          font-family: &apos;Comic Sans MS&apos;, sans-serif;
+          font-family: 'Comic Sans MS', sans-serif;
           text-align: center;
           transition: all 0.3s ease;
         }
@@ -164,7 +164,7 @@ export default function OAOTHomePage() {
           color: #d1d5db;
           font-size: 0.875rem;
           text-align: center;
-          font-family: &apos;Comic Sans MS&apos;, sans-serif;
+          font-family: 'Comic Sans MS', sans-serif;
           transition: all 0.3s ease;
         }
         
@@ -236,13 +236,13 @@ export default function OAOTHomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center relative z-10">
             <div className="lg:col-span-2">
               <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                Promoting health, hope, help, and change... <span style={{color: &apos;#fbbf24&apos;, textShadow: &apos;0 0 10px rgba(251, 191, 36, 0.5)&apos;}}>one person at a time! 🌈</span>
+                Promoting health, hope, help, and change... <span style={{color: '#fbbf24', textShadow: '0 0 10px rgba(251, 191, 36, 0.5)'}}>one person at a time! 🌈</span>
               </h1>
               <p className="text-xl mb-8 opacity-90">
                 Serving Oakvale and Mercer County, West Virginia through community-driven outreach,
                 disaster recovery, youth development, and neighbor-to-neighbor support.
                 <br />
-                <em style={{color: &apos;#fbbf24&apos;}}>🎨 Where kids create art, explore trails, and build friendships! 🥾</em>
+                <em style={{color: '#fbbf24'}}>🎨 Where kids create art, explore trails, and build friendships! 🥾</em>
               </p>
               <div className="flex gap-4 flex-wrap">
                 <button className="btn btn-secondary">🎨 Join Our Art Adventures</button>
@@ -251,29 +251,29 @@ export default function OAOTHomePage() {
             </div>
 
             <div className="bg-white bg-opacity-10 rounded-2xl p-6 border-2 border-white border-opacity-20">
-              <h3 className="text-xl font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>🌟 Community Magic</h3>
+              <h3 className="text-xl font-bold mb-4" style={{color: '#fbbf24'}}>🌟 Community Magic</h3>
               <div className="impact-stat">
                 <div className="flex justify-between">
                   <span>🌙 Night Owl Community</span>
-                  <span className="font-bold" style={{color: &apos;#fbbf24&apos;}}>777</span>
+                  <span className="font-bold" style={{color: '#fbbf24'}}>777</span>
                 </div>
               </div>
               <div className="impact-stat">
                 <div className="flex justify-between">
                   <span>✨ Lives Touched</span>
-                  <span className="font-bold" style={{color: &apos;#fbbf24&apos;}}>268+</span>
+                  <span className="font-bold" style={{color: '#fbbf24'}}>268+</span>
                 </div>
               </div>
               <div className="impact-stat">
                 <div className="flex justify-between">
                   <span>🎨 Young Artists & Hikers</span>
-                  <span className="font-bold" style={{color: &apos;#fbbf24&apos;}}>50+</span>
+                  <span className="font-bold" style={{color: '#fbbf24'}}>50+</span>
                 </div>
               </div>
               <div className="impact-stat">
                 <div className="flex justify-between">
                   <span>💫 Magic Moments</span>
-                  <span className="font-bold" style={{color: &apos;#fbbf24&apos;}}>∞</span>
+                  <span className="font-bold" style={{color: '#fbbf24'}}>∞</span>
                 </div>
               </div>
             </div>
@@ -285,9 +285,9 @@ export default function OAOTHomePage() {
       <section className="py-16 bg-slate-800">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>🌈 Our Fun Adventures</h2>
+            <h2 className="text-4xl font-bold mb-4" style={{color: '#fbbf24'}}>🌈 Our Fun Adventures</h2>
             <p className="text-xl text-slate-300">
-              From art projects to mountain hikes, we&apos;re creating magical memories and building a stronger community together!
+              From art projects to mountain hikes, we're creating magical memories and building a stronger community together!
             </p>
           </div>
 
@@ -298,10 +298,10 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">flood.jpg from Strapi</small>
               </div>
               <div className="fun-icon red">🚨</div>
-              <h3 className="text-xl font-bold mb-3" style={{color: &apos;#fbbf24&apos;}}>Emergency Response Team</h3>
+              <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Emergency Response Team</h3>
               <p className="text-slate-300 mb-4">
                 When disasters strike, our community heroes spring into action! Home cleanup, supply distribution,
-                and neighbor helping neighbor - that&apos;s how we roll! 💪
+                and neighbor helping neighbor - that's how we roll! 💪
               </p>
               <button className="text-red-400 border-2 border-red-400 px-4 py-2 rounded hover:bg-red-400 hover:text-white transition-colors">
                 Learn More 🌟
@@ -314,7 +314,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">Blessing_box.jpg from Strapi</small>
               </div>
               <div className="fun-icon green">📦</div>
-              <h3 className="text-xl font-bold mb-3" style={{color: &apos;#fbbf24&apos;}}>Magical Blessing Boxes</h3>
+              <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Magical Blessing Boxes</h3>
               <p className="text-slate-300 mb-4">
                 Like treasure chests scattered throughout our community! 24/7 access to food, clothes, and surprises
                 for families who need a little extra magic. ✨
@@ -330,7 +330,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">hero kids.jpg from Strapi</small>
               </div>
               <div className="fun-icon blue">🌟</div>
-              <h3 className="text-xl font-bold mb-3" style={{color: &apos;#fbbf24&apos;}}>Harmony&apos;s Kids Art & Adventure Club</h3>
+              <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Harmony's Kids Art & Adventure Club</h3>
               <p className="text-slate-300 mb-4">
                 Mountain hikes, trail building, photography adventures, and art projects celebrating our beautiful
                 Appalachian home! Where creativity meets the great outdoors! 🏔️🎨
@@ -346,7 +346,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">family and kids.jpg from Strapi</small>
               </div>
               <div className="fun-icon yellow">🎉</div>
-              <h3 className="text-xl font-bold mb-3" style={{color: &apos;#fbbf24&apos;}}>Seasonal Community Celebrations</h3>
+              <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Seasonal Community Celebrations</h3>
               <p className="text-slate-300 mb-4">
                 Christmas magic, Secret Santa surprises, holiday light tours, and year-round celebrations that
                 bring smiles to every face in our community! 🎄✨
@@ -363,7 +363,7 @@ export default function OAOTHomePage() {
       <section className="py-16 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>🎨 Our Community Art Gallery</h2>
+            <h2 className="text-4xl font-bold mb-4" style={{color: '#fbbf24'}}>🎨 Our Community Art Gallery</h2>
             <p className="text-xl text-slate-300">
               Real stories, real art, real adventures from our amazing Oakvale family!
             </p>
@@ -376,7 +376,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">owls_mural.jpg from Strapi</small>
               </div>
               <div className="fun-icon purple">🦉</div>
-              <h3 className="font-bold mb-2" style={{color: &apos;#fbbf24&apos;}}>Oakvale Owls Mural Magic</h3>
+              <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Oakvale Owls Mural Magic</h3>
               <p className="text-slate-300 text-sm">Community artists creating beautiful murals celebrating our mountain heritage and Oakvale Owls spirit!</p>
             </div>
 
@@ -386,7 +386,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">hero kids.jpg from Strapi</small>
               </div>
               <div className="fun-icon blue">⭐</div>
-              <h3 className="font-bold mb-2" style={{color: &apos;#fbbf24&apos;}}>Certificate Heroes</h3>
+              <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Certificate Heroes</h3>
               <p className="text-slate-300 text-sm">Amazing kids receiving recognition for their outstanding community service and creative achievements!</p>
             </div>
 
@@ -396,7 +396,7 @@ export default function OAOTHomePage() {
                 <br /><small className="text-slate-400">Traveling_art.jpg from Strapi</small>
               </div>
               <div className="fun-icon pink">🎨</div>
-              <h3 className="font-bold mb-2" style={{color: &apos;#fbbf24&apos;}}>Art That Travels</h3>
+              <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Art That Travels</h3>
               <p className="text-slate-300 text-sm">Our collective art exhibit showcasing diverse local talents and stories that inspire communities everywhere!</p>
             </div>
           </div>
@@ -411,7 +411,7 @@ export default function OAOTHomePage() {
       <section className="py-16 bg-slate-800">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>🌟 Our Amazing Leadership Team</h2>
+            <h2 className="text-4xl font-bold mb-4" style={{color: '#fbbf24'}}>🌟 Our Amazing Leadership Team</h2>
             <p className="text-xl text-slate-300">
               The wonderful people who make all the magic happen in our Oakvale community!
             </p>
@@ -420,50 +420,50 @@ export default function OAOTHomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="team-photo">
-                📷 Deb&apos;s Photo
+                📷 Deb's Photo
                 <br /><small>Deb.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Debra Williby-Walker</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Debra Williby-Walker</h3>
               <p className="text-purple-400 font-medium mb-2">🌟 Executive Director</p>
               <p className="text-slate-300 text-sm">Leading our mission and spreading joy throughout the community with amazing outreach programs!</p>
             </div>
 
             <div className="text-center">
               <div className="team-photo">
-                📷 Cindy&apos;s Photo
+                📷 Cindy's Photo
                 <br /><small>cindy.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Cindy Neeley</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Cindy Neeley</h3>
               <p className="text-emerald-400 font-medium mb-2">💰 Finance Director</p>
               <p className="text-slate-300 text-sm">Making sure every penny helps our community grow and thrive - our money magician! ✨</p>
             </div>
 
             <div className="text-center">
               <div className="team-photo">
-                📷 Loretta&apos;s Photo
+                📷 Loretta's Photo
                 <br /><small>Loretta.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Loretta Champ</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Loretta Champ</h3>
               <p className="text-amber-400 font-medium mb-2">📱 Social Media & Admin Wizard</p>
               <p className="text-slate-300 text-sm">Keeping everyone connected and sharing all our amazing community adventures online!</p>
             </div>
 
             <div className="text-center">
               <div className="team-photo">
-                📷 Rhanda&apos;s Photo
+                📷 Rhanda's Photo
                 <br /><small>Rhanda.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Rhanda Blake</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Rhanda Blake</h3>
               <p className="text-purple-400 font-medium mb-2">🎯 Project Coordinator</p>
               <p className="text-slate-300 text-sm">Organizing all our fun initiatives and helping volunteers find their perfect community project!</p>
             </div>
 
             <div className="text-center">
               <div className="team-photo">
-                📷 Elizabeth&apos;s Photo
+                📷 Elizabeth's Photo
                 <br /><small>Elizabeth.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Karen Leathers</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Karen Leathers</h3>
               <p className="text-pink-400 font-medium mb-2">🤝 H4H Liaison</p>
               <p className="text-slate-300 text-sm">Connecting us with our Harmony for Hope family to create even more community magic!</p>
             </div>
@@ -473,7 +473,7 @@ export default function OAOTHomePage() {
                 📷 Adventure Team
                 <br /><small>Park.jpg</small>
               </div>
-              <h3 className="font-bold mb-1" style={{color: &apos;#fbbf24&apos;}}>Youth Adventure Leaders</h3>
+              <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Youth Adventure Leaders</h3>
               <p className="text-indigo-400 font-medium mb-2">🥾 Kenton, Brady & Kendall</p>
               <p className="text-slate-300 text-sm">Leading hiking adventures, trail projects, and photography fun in our beautiful mountains!</p>
             </div>
@@ -507,18 +507,18 @@ export default function OAOTHomePage() {
               <div className="flex items-center gap-3 mb-4">
                 <div className="logo-circle">🦉</div>
                 <div>
-                  <h3 className="font-bold" style={{color: &apos;#fbbf24&apos;}}>Oakvale Area Outreach Team</h3>
+                  <h3 className="font-bold" style={{color: '#fbbf24'}}>Oakvale Area Outreach Team</h3>
                   <p className="text-slate-400 text-sm">A subsidiary of Harmony for Hope, Inc.</p>
                 </div>
               </div>
               <p className="text-slate-300">
                 Promoting health, hope, help, and change in Oakvale and Mercer County through
-                community-driven outreach, kids&apos; art programs, hiking adventures, and neighbor-to-neighbor support! 🌈
+                community-driven outreach, kids' art programs, hiking adventures, and neighbor-to-neighbor support! 🌈
               </p>
             </div>
 
             <div>
-              <h4 className="font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>🌟 Quick Links</h4>
+              <h4 className="font-bold mb-4" style={{color: '#fbbf24'}}>🌟 Quick Links</h4>
               <ul className="space-y-2">
                 <li><a href="#" className="text-slate-300 hover:text-white">🎨 About OAOT</a></li>
                 <li><a href="#" className="text-slate-300 hover:text-white">🥾 Our Programs</a></li>
@@ -529,14 +529,14 @@ export default function OAOTHomePage() {
             </div>
 
             <div>
-              <h4 className="font-bold mb-4" style={{color: &apos;#fbbf24&apos;}}>📞 Contact Us</h4>
+              <h4 className="font-bold mb-4" style={{color: '#fbbf24'}}>📞 Contact Us</h4>
               <div className="text-slate-300">
                 <p>🏔️ Oakvale, Mercer County<br />West Virginia</p>
                 <p>📧 info@oaot.harmonyforhope.org</p>
                 <p>☎️ (304) 555-OAOT</p>
                 <div className="mt-4">
                   <p className="text-slate-400 text-sm">🌙 Night Owl Community:</p>
-                  <p className="font-bold" style={{color: &apos;#fbbf24&apos;}}>777 Active Members</p>
+                  <p className="font-bold" style={{color: '#fbbf24'}}>777 Active Members</p>
                 </div>
               </div>
             </div>
