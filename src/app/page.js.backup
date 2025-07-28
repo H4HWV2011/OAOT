@@ -14,14 +14,14 @@ export default function OAOTHomePage() {
           background-color: #0f172a;
           color: #e2e8f0;
         }
-
+        
         .hero {
           background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e1b4b 100%);
           color: #e2e8f0;
           padding: 4rem 0;
           position: relative;
         }
-
+        
         .hero::before {
           content: '🌟 ⭐ 🌙 ✨ 🦉 🏔️ 🎨 🥾';
           position: absolute;
@@ -33,12 +33,12 @@ export default function OAOTHomePage() {
           opacity: 0.3;
           animation: twinkle 4s infinite;
         }
-
+        
         @keyframes twinkle {
           0%, 100% { opacity: 0.3; }
           50% { opacity: 0.6; }
         }
-
+        
         .card {
           background: #334155;
           border-radius: 1rem;
@@ -48,13 +48,13 @@ export default function OAOTHomePage() {
           border: 2px solid #475569;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
+        
         .card:hover {
           transform: translateY(-5px);
           box-shadow: 0 8px 25px rgba(0,0,0,0.4);
           border-color: #64748b;
         }
-
+        
         .btn {
           display: inline-block;
           padding: 0.75rem 1.5rem;
@@ -66,40 +66,40 @@ export default function OAOTHomePage() {
           font-family: 'Comic Sans MS', sans-serif;
           transition: all 0.3s ease;
         }
-
+        
         .btn-primary {
           background: linear-gradient(45deg, #3b82f6, #1d4ed8);
           color: white;
           box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
         }
-
+        
         .btn-primary:hover {
           transform: translateY(-2px);
           box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
         }
-
+        
         .btn-secondary {
           background: linear-gradient(45deg, #f59e0b, #d97706);
           color: white;
           box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
         }
-
+        
         .btn-secondary:hover {
           transform: translateY(-2px);
           box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
         }
-
+        
         .btn-fun {
           background: linear-gradient(45deg, #10b981, #059669);
           color: white;
           box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
         }
-
+        
         .btn-fun:hover {
           transform: translateY(-2px);
           box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
         }
-
+        
         .nav {
           background: #1e293b;
           box-shadow: 0 4px 6px rgba(0,0,0,0.3);
@@ -109,7 +109,7 @@ export default function OAOTHomePage() {
           z-index: 50;
           border-bottom: 3px solid #475569;
         }
-
+        
         .logo-circle {
           width: 3rem;
           height: 3rem;
@@ -123,12 +123,57 @@ export default function OAOTHomePage() {
           box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
           animation: glow 2s infinite alternate;
         }
-
+        
         @keyframes glow {
           from { box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4); }
           to { box-shadow: 0 6px 20px rgba(139, 92, 246, 0.7); }
         }
-
+        
+        .image-placeholder {
+          width: 100%;
+          height: 200px;
+          background: linear-gradient(45deg, #374151, #4b5563);
+          border-radius: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 1rem;
+          border: 3px dashed #6b7280;
+          color: #d1d5db;
+          font-weight: bold;
+          font-family: 'Comic Sans MS', sans-serif;
+          text-align: center;
+          transition: all 0.3s ease;
+        }
+        
+        .image-placeholder:hover {
+          border-color: #9ca3af;
+          background: linear-gradient(45deg, #4b5563, #6b7280);
+        }
+        
+        .team-photo {
+          width: 120px;
+          height: 120px;
+          background: linear-gradient(45deg, #374151, #4b5563);
+          border-radius: 50%;
+          margin: 0 auto 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 4px dashed #6b7280;
+          color: #d1d5db;
+          font-size: 0.875rem;
+          text-align: center;
+          font-family: 'Comic Sans MS', sans-serif;
+          transition: all 0.3s ease;
+        }
+        
+        .team-photo:hover {
+          border-color: #9ca3af;
+          background: linear-gradient(45deg, #4b5563, #6b7280);
+          transform: scale(1.05);
+        }
+        
         .fun-icon {
           width: 4rem;
           height: 4rem;
@@ -141,18 +186,18 @@ export default function OAOTHomePage() {
           box-shadow: 0 4px 15px rgba(0,0,0,0.3);
           transition: all 0.3s ease;
         }
-
+        
         .fun-icon:hover {
           transform: rotate(10deg) scale(1.1);
         }
-
+        
         .fun-icon.red { background: linear-gradient(45deg, #ef4444, #dc2626); }
         .fun-icon.green { background: linear-gradient(45deg, #10b981, #059669); }
         .fun-icon.blue { background: linear-gradient(45deg, #3b82f6, #1d4ed8); }
         .fun-icon.yellow { background: linear-gradient(45deg, #f59e0b, #d97706); }
         .fun-icon.purple { background: linear-gradient(45deg, #8b5cf6, #7c3aed); }
         .fun-icon.pink { background: linear-gradient(45deg, #ec4899, #db2777); }
-
+        
         .impact-stat {
           background: rgba(255,255,255,0.1);
           border-radius: 0.5rem;
@@ -160,7 +205,7 @@ export default function OAOTHomePage() {
           margin-bottom: 0.75rem;
           border-left: 4px solid #fbbf24;
         }
-
+        
         .footer {
           background-color: #0f172a;
           color: #e2e8f0;
@@ -248,11 +293,10 @@ export default function OAOTHomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="card">
-              <img 
-                src="/images/flood_db1b5653e8.jpg" 
-                alt="OAOT Emergency Response Team during flood recovery in Mount Hope, WV"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🏔️ Flood Recovery Heroes
+                <br /><small className="text-slate-400">flood.jpg from Strapi</small>
+              </div>
               <div className="fun-icon red">🚨</div>
               <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Emergency Response Team</h3>
               <p className="text-slate-300 mb-4">
@@ -265,11 +309,10 @@ export default function OAOTHomePage() {
             </div>
 
             <div className="card">
-              <img 
-                src="/images/Blessing_box_dd52c10062.jpg" 
-                alt="Community Blessing Box providing 24/7 resources for families in need"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🎁 Community Blessing Boxes
+                <br /><small className="text-slate-400">Blessing_box.jpg from Strapi</small>
+              </div>
               <div className="fun-icon green">📦</div>
               <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Magical Blessing Boxes</h3>
               <p className="text-slate-300 mb-4">
@@ -282,11 +325,10 @@ export default function OAOTHomePage() {
             </div>
 
             <div className="card">
-              <img 
-                src="/images/hero_kids_a221c7bbdc.jpg" 
-                alt="Young heroes participating in OAOT art and adventure programs"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🎨 Kids Creating & Exploring
+                <br /><small className="text-slate-400">hero kids.jpg from Strapi</small>
+              </div>
               <div className="fun-icon blue">🌟</div>
               <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Harmony's Kids Art & Adventure Club</h3>
               <p className="text-slate-300 mb-4">
@@ -299,11 +341,10 @@ export default function OAOTHomePage() {
             </div>
 
             <div className="card">
-              <img 
-                src="/images/family_and_kids_e400f38103.jpg" 
-                alt="Families and children enjoying seasonal community celebrations"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🎪 Family Fun Events
+                <br /><small className="text-slate-400">family and kids.jpg from Strapi</small>
+              </div>
               <div className="fun-icon yellow">🎉</div>
               <h3 className="text-xl font-bold mb-3" style={{color: '#fbbf24'}}>Seasonal Community Celebrations</h3>
               <p className="text-slate-300 mb-4">
@@ -330,36 +371,33 @@ export default function OAOTHomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="card">
-              <img 
-                src="/images/owls_mural_b8a61ea169.jpg" 
-                alt="Beautiful Oakvale Owls mural celebrating community heritage"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🎨 Owl Mural Masterpiece
+                <br /><small className="text-slate-400">owls_mural.jpg from Strapi</small>
+              </div>
               <div className="fun-icon purple">🦉</div>
               <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Oakvale Owls Mural Magic</h3>
               <p className="text-slate-300 text-sm">Community artists creating beautiful murals celebrating our mountain heritage and Oakvale Owls spirit!</p>
             </div>
 
             <div className="card">
-              <img 
-                src="/images/hero_kids_a221c7bbdc.jpg" 
-                alt="Young certificate heroes being recognized for community service"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                ⭐ Young Heroes Shine
+                <br /><small className="text-slate-400">hero kids.jpg from Strapi</small>
+              </div>
               <div className="fun-icon blue">⭐</div>
               <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Certificate Heroes</h3>
               <p className="text-slate-300 text-sm">Amazing kids receiving recognition for their outstanding community service and creative achievements!</p>
             </div>
 
             <div className="card">
-              <img 
-                src="/images/Park_387e15dcac.jpg" 
-                alt="Youth adventure leaders in beautiful Appalachian outdoors"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+              <div className="image-placeholder">
+                🌈 Traveling Art Adventure
+                <br /><small className="text-slate-400">Traveling_art.jpg from Strapi</small>
+              </div>
               <div className="fun-icon pink">🎨</div>
-              <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Adventure Art Projects</h3>
-              <p className="text-slate-300 text-sm">Our youth adventure teams combining outdoor exploration with creative art projects in our beautiful mountains!</p>
+              <h3 className="font-bold mb-2" style={{color: '#fbbf24'}}>Art That Travels</h3>
+              <p className="text-slate-300 text-sm">Our collective art exhibit showcasing diverse local talents and stories that inspire communities everywhere!</p>
             </div>
           </div>
 
@@ -381,52 +419,49 @@ export default function OAOTHomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <img 
-                src="/images/Deb_bbca644991.jpg" 
-                alt="Debra Williby-Walker, Executive Director of OAOT"
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-purple-400"
-              />
+              <div className="team-photo">
+                📷 Deb's Photo
+                <br /><small>Deb.jpg</small>
+              </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Debra Williby-Walker</h3>
               <p className="text-purple-400 font-medium mb-2">🌟 Executive Director</p>
               <p className="text-slate-300 text-sm">Leading our mission and spreading joy throughout the community with amazing outreach programs!</p>
             </div>
 
             <div className="text-center">
-              <img 
-                src="/images/cindy_735db10f5f.jpg" 
-                alt="Cindy Neeley, Finance Director"
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-emerald-400"
-              />
+              <div className="team-photo">
+                📷 Cindy's Photo
+                <br /><small>cindy.jpg</small>
+              </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Cindy Neeley</h3>
               <p className="text-emerald-400 font-medium mb-2">💰 Finance Director</p>
               <p className="text-slate-300 text-sm">Making sure every penny helps our community grow and thrive - our money magician! ✨</p>
             </div>
 
             <div className="text-center">
-              <img 
-                src="/images/Loretta_436c5273e4.jpg" 
-                alt="Loretta Champ, Social Media & Admin Wizard"
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-amber-400"
-              />
+              <div className="team-photo">
+                📷 Loretta's Photo
+                <br /><small>Loretta.jpg</small>
+              </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Loretta Champ</h3>
               <p className="text-amber-400 font-medium mb-2">📱 Social Media & Admin Wizard</p>
               <p className="text-slate-300 text-sm">Keeping everyone connected and sharing all our amazing community adventures online!</p>
             </div>
 
             <div className="text-center">
-              <img 
-                src="/images/Rhanda_2922552415.jpg" 
-                alt="Rhanda Blake, Project Coordinator"
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-purple-400"
-              />
+              <div className="team-photo">
+                📷 Rhanda's Photo
+                <br /><small>Rhanda.jpg</small>
+              </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Rhanda Blake</h3>
               <p className="text-purple-400 font-medium mb-2">🎯 Project Coordinator</p>
               <p className="text-slate-300 text-sm">Organizing all our fun initiatives and helping volunteers find their perfect community project!</p>
             </div>
 
             <div className="text-center">
-              <div className="w-32 h-32 bg-gradient-to-br from-pink-500 to-pink-700 rounded-full mx-auto mb-4 border-4 border-pink-400 flex items-center justify-center">
-                <span className="text-4xl">🤝</span>
+              <div className="team-photo">
+                📷 Elizabeth's Photo
+                <br /><small>Elizabeth.jpg</small>
               </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Karen Leathers</h3>
               <p className="text-pink-400 font-medium mb-2">🤝 H4H Liaison</p>
@@ -434,11 +469,10 @@ export default function OAOTHomePage() {
             </div>
 
             <div className="text-center">
-              <img 
-                src="/images/Park_387e15dcac.jpg" 
-                alt="Youth Adventure Leaders: Kenton, Brady & Kendall"
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-indigo-400"
-              />
+              <div className="team-photo">
+                📷 Adventure Team
+                <br /><small>Park.jpg</small>
+              </div>
               <h3 className="font-bold mb-1" style={{color: '#fbbf24'}}>Youth Adventure Leaders</h3>
               <p className="text-indigo-400 font-medium mb-2">🥾 Kenton, Brady & Kendall</p>
               <p className="text-slate-300 text-sm">Leading hiking adventures, trail projects, and photography fun in our beautiful mountains!</p>
